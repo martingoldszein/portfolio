@@ -369,6 +369,7 @@ img {
   display: block;
  /* display: grid;
   place-items: center; */
+  height: 37px;
   transition: background-color 0.3s;
 }
 
