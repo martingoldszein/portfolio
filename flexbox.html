@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin Goldszein</title>
+      <style>
+        .container {
+          width: 80%;
+          margin: 0 auto 20px;
+          border: 1px solid #000;
+          padding: 10px;
+          display: flex;
+        }
+        .container div {
+            width: 50px;
+            height: 50px;
+            background: red;
+            margin: 5px;
+        }
+        .ejemmplo-1 {
+       /* Alinear items flex desde el comienzo */
+       justify-content: flex-start;
+        }
+        .ejemplo-2 {
+        /* Distribuir items uniformemente
+        El primer item al inicio, el último al final */
+        justify-content: space-between;
+        }
+        .ejemplo-3 {
+        /* Distribuir items uniformemente
+        Los items tienen el mismo espacio a su alrededor */
+        justify-content: space-around;
+        }
+        .ejemplo-4 {
+
+        /* Alinear items desde el final */
+        justify-content: flex-end;
+        }
+        .ejemplo-5 {
+
+        /* Alinear items en el centro */
+        justify-content: center;
+        }
+          section {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+
+
+          }
+          article {
+            flex: 100px;
+          }
+          article:nth-of-type(3) {
+            flex:  10px;
+          }
+      </style>
+  </head>
+  <body>
+  <h1>ALINEACION</h1>
+  <h2>element FLEX > propiedad JUSTIFY CONTENT > 5 VALORES</h2> 
+  <h4>Display Flex > flex-start</h4>
+  <div class="container ejemplo-1">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <h4>Display Flex > space-between</h4>
+  <div class="container ejemplo-2">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <h4>Display Flex > space-around</h4>
+  <div class="container ejemplo-3">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <h4>Display Flex > flex end</h4>
+  <div class="container ejemplo-4">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <h4>Display Flex > center</h4>
+  <div class="container ejemplo-5">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+
+
+<hr>
+<h2>element FLEX > propiedad JUSTIFY CONTENT > 5 VALORES</h2> 
+<h4>Display Flex > </h4>
+<div class="container ejemplo-6">
+  <div></div>
+  <div></div>
+  <div></div>
+
+</div>
+
+
+<section>
+  <article>
+    <h1>Art 1</h1>
+    <p>La ministra de Seguridad emitió un comunicado para rechazar la postura del gobernador de Chubut, que amenazó con bloquear la salida de petróleo si no se le reintegran los fondos retenidos por el gobierno de Milei. La misiva no fue acompañada por ningún mandatario provincial ni firmada por alguna figura de relieve del PRO.</p>
+  </article>
+  <article>
+    <h1>Art 2</h1>
+    <p>La ministra de Seguridad emitió un comunicado para rechazar la postura del gobernador de Chubut, que amenazó con bloquear la salida de petróleo si no se le reintegran los fondos retenidos por el gobierno de Milei. La misiva no fue acompañada por ningún mandatario provincial ni firmada por alguna figura de relieve del PRO.</p>
+  </article>
+  <article>
+    <h1>Art 3</h1>
+    <p>La ministra de Seguridad emitió un comunicado para rechazar la postura del gobernador de Chubut, que amenazó con bloquear la salida de petróleo si no se le reintegran los fondos retenidos por el gobierno de Milei. La misiva no fue acompañada por ningún mandatario provincial ni firmada por alguna figura de relieve del PRO.</p>
+  </article>
+</section>
+
+
+</body>
+</html>

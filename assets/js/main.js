@@ -34,9 +34,6 @@ const shadowHeader = () => {
 }
 window.addEventListener('scroll', shadowHeader)
 
-/*=============== SHADOW HEADER ===============*/
-
-
 /*=============== EMAIL JS ===============*/
 const   contactForm = document.getElementById('contact-form'),
         contactMessage = document.getElementById('contact-message')
@@ -99,5 +96,6 @@ const sr = ScrollReveal ({
 sr.reveal(('.home__perfil, .about__image, .contact__mail'), {origin: 'right'})
 sr.reveal(('.home__name, .home__info, .about__container .section__title-1,.about__info, .contact__data'), {origin: 'left'})
 
-sr.reveal('.services__card, .projects__card', {interval:100})
+sr.reveal('.services__card, .projects__card', {interval:70})
+//
 
